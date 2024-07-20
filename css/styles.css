@@ -563,26 +563,27 @@ form {
   display: flex;
   align-items: center;
   gap: 24px;
+  /* color: var(--white); */
 }
 
-.subscribe-input {
-  width: 264px;
-}
+/* .subscribe-input {
+  color: var(--white);
+} */
 
 .subscribe-input {
-    /* width: 100%; */
+    width: 264px;
     height: 40px;
     padding-left: 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     background-color: transparent;
-    color: var(--cloud);
+    color: var(--white);
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     outline: none;
     transition: border-color 250ms var(--timing-function);
-    
+    /* placeholder-shown:border-color: blue; */
     
     /* ---------------  --------------- */
