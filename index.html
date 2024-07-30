@@ -460,7 +460,7 @@
         <div class="subscribe-wrapper">
           <p class="subscribe-title">Subscribe</p>
           <form class="subscribe-form">
-            <label class="subscribe-label" for="">
+            <label for="/" class="subscribe-label">
               <input
                 class="subscribe-input"
                 type="email"
@@ -507,17 +507,11 @@
                   <use href="./images/icons.svg#icon-person"></use>
                 </svg>
               </div>
-              <!-- <span class="modal-form-input-descr">Name</span>
-              <span class="modal-form-wrapper"> -->
-
-              <!-- </span> -->
             </label>
           </div>
           <div class="modal-form">
             <label class="modal-form-field"
               >Phone
-              <!-- <span class="modal-form-input-descr"</span>
-              <span class="modal-form-wrapper"> -->
               <div class="modal-form-wrapper">
                 <input
                   class="modal-form-input"
@@ -530,15 +524,11 @@
                   <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
               </div>
-
-              <!-- </span> -->
             </label>
           </div>
           <div class="modal-form">
             <label class="modal-form-field"
               >Email
-              <!-- <span class="modal-form-input-descr">Email</span>
-              <span class="modal-form-wrapper"> -->
               <div class="modal-form-wrapper">
                 <input
                   class="modal-form-input"
@@ -549,15 +539,13 @@
                   <use href="./images/icons.svg#icon-email"></use>
                 </svg>
               </div>
-
-              <!-- </span> -->
             </label>
           </div>
           <div class="modal-form">
-            <label class="modal-form-field-textare"
+            <label for="user-comment" class="modal-form-field"
               >Comment
-              <!-- <span class="modal-form-input-descr">Comment</span> -->
               <textarea
+                id="user-comment"
                 name="user-message"
                 class="modal-form-message"
                 placeholder="Text input"
@@ -568,19 +556,18 @@
             <input
               class="modal-form-check visually-hidden"
               type="checkbox"
-              name="user_policy"
+              value="true"
+              name="user-privacy"
             />
             <label class="modal-form-check-descr">
               <span class="modal-form-check-copy">
-                <svg class="modal-form-check-icon" width="16" height="16">
+                <svg class="modal-form-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Checkbox"></use>
                 </svg>
-              <!-- </span> -->
+              </span>
               "I accept the terms and conditions of the Privacy Policy"
             </label>
           </div>
-          <!-- <button class="">
-        </button> -->
         </form>
       </div>
     </div>
