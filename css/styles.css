@@ -220,14 +220,14 @@ img {
 }
 
 .subscribe-btn {
-  display: flex; 
+  display: flex;
   /* display: inline-flex; */
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   gap: 16px;
   padding: 8px 24px;
   min-width: 165px;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .button-main:hover,
@@ -235,7 +235,7 @@ img {
   background: #404bbf;
 }
 
-.btn-subscribe{
+.btn-subscribe {
   margin-left: 16px;
 }
 /* ---------------  --------------- */
@@ -567,25 +567,26 @@ img {
   width: 264px;
   height: 40px;
   padding-left: 16px;
-  border: border: 1px solid #ffffff; 
   border-radius: 4px;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   background-color: transparent;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #ffffff;
   placeholder: color #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   outline: none;
   transition: border-color 250ms var(--timing-function);
+  border: 1px solid #ffffff;
 }
 
 .subscribe-input:focus {
   border: 1px solid var(--iris);
 }
 
-.subscribe-label{}
+.subscribe-label {
+}
 
 /* ---------------  --------------- */
 
@@ -602,7 +603,7 @@ img {
   visibility: hidden;
   pointer-events: auto;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .backdrop.is-open {
