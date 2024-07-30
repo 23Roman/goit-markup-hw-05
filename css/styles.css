@@ -796,3 +796,23 @@ img {
   justify-content: center;
   fill: transparent;
 }
+
+.modal-form-field {
+  color: #8e8f99;
+}
+
+.modal-form-check:checked + .modal-form-check-descr .modal-form-check-copy {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.privacy-policy-link {
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.privacy-policy-link:hover,
+.privacy-policy-link:focus {
+  text-decoration: underline;
+}
