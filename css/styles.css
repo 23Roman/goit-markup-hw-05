@@ -699,7 +699,6 @@ img {
 
 .modal-form-field {
   display: block;
-  /* margin-bottom: 8px; */
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -707,14 +706,14 @@ img {
   color: #8e8f99;
 }
 
-.modal-form-input-descr {
+/* .modal-form-input-descr {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--light-slate);
-}
+} */
 
 .modal-form-wrapper {
   position: relative;
