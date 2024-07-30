@@ -815,4 +815,5 @@ img {
 .privacy-policy-link:hover,
 .privacy-policy-link:focus {
   text-decoration: underline;
+  text-decoration-skip-ink: none;
 }
