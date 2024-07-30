@@ -688,6 +688,10 @@ img {
   margin-bottom: 8px;
 }
 
+.message-comment {
+  margin-bottom: 16px;
+}
+
 .modal-form-input {
   width: 100%;
   height: 40px;
