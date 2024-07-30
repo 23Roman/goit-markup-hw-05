@@ -677,6 +677,9 @@ img {
   text-align: center;
   color: var(--navy-blue);
 }
+.modal-form {
+  margin-bottom: 8px;
+}
 
 .modal-form-input {
   width: 100%;
@@ -691,7 +694,11 @@ img {
 
 .modal-form-field {
   display: block;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
 
 .modal-form-input-descr {
