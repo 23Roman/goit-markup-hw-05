@@ -581,11 +581,14 @@ img {
   background-color: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #ffffff;
-  placeholder: color #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   outline: none;
   transition: border-color 250ms var(--timing-function);
   border: 1px solid #ffffff;
+}
+
+.subscribe-input::placeholder {
+  color: #fff;
 }
 
 .subscribe-input:focus {
@@ -759,7 +762,8 @@ img {
 }
 
 .modal-form-check-icon {
-  opacity: 0;
+  fill: transparent;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-check-descr {
@@ -774,13 +778,13 @@ img {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  margin-right: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
 }
 
 .modal-form-field {
@@ -790,6 +794,12 @@ img {
 .modal-form-check:checked + .modal-form-check-descr .modal-form-check-copy {
   background-color: #404bbf;
   border: none;
+}
+
+.modal-form-check:checked
+  + .modal-form-check-descr
+  .modal-form-check-copy
+  .modal-form-check-icon {
   fill: #f4f4fd;
 }
 
